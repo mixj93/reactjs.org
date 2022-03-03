@@ -48,7 +48,7 @@ const Header = ({location}: {location: Location}) => (
       <Container>
         <div style={{position: 'relative'}}>
           <SurveyBanner />
-          <SocialBanner />
+          {/* <SocialBanner /> */}
         </div>
       </Container>
     </ContainerWrapper>

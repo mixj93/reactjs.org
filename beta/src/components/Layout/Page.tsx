@@ -17,7 +17,7 @@ interface PageProps {
 export function Page({routeTree, children}: PageProps) {
   return (
     <>
-      <SocialBanner />
+      {/* <SocialBanner /> */}
       <MenuProvider>
         <SidebarContext.Provider value={routeTree}>
           <div className="h-auto lg:h-screen flex flex-row">
